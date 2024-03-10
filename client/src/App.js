@@ -19,7 +19,6 @@ function App() {
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="/register" element={<RegisterPage/>}/>
           <Route path="/" element={<HomePage/>}/>
-
           <Route path="/create-listing" element={<CreateListing/>}/>
           <Route path="/properties/:listingId" element={<ListingDetails/>}/>
           <Route path="/properties/category/:category" element={<CategoryPage/>}/>

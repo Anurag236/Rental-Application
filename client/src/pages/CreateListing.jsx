@@ -121,7 +121,7 @@ const CreateListing = () => {
       });
 
       /* Send a POST request to server */
-      const response = await fetch("http://localhost:3001/properties/create", {
+      const response = await fetch(`http://localhost:3001/properties/create`, {
         method: "POST",
         body: listingForm,
       });

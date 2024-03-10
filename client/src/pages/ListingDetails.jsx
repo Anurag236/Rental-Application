@@ -69,7 +69,7 @@ const ListingDetails = () => {
         totalPrice: listing.price * dayCount,
       }
 
-      const response = await fetch("http://localhost:3001/bookings/create", {
+      const response = await fetch(`http://localhost:3001/bookings/create`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -95,7 +95,7 @@ const ListingDetails = () => {
         </div>
         <div className="photos">
             {listing.listingPhotoPaths?.map((item) => (
-            <img
+              <img
               src={`http://localhost:3001/${item.replace("public", "")}`}
               alt="listing photo"
             />

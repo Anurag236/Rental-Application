@@ -18,10 +18,10 @@ const CategoryPage = () => {
   const getFeedListings = async () => {
     try {
       const response = await fetch(
-          `http://localhost:3001/properties?category=${category}`,
-        {
-          method: "GET",
-        }
+        `http://localhost:3001/properties?category=${category}`,
+      {
+        method: "GET",
+      }
       );
 
       const data = await response.json();

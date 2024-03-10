@@ -25,6 +25,8 @@ const Listings = () => {
         }
       );
 
+
+
       
       const data = await response.json();
       dispatch(setListings({ listings: data }));
