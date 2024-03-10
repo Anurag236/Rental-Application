@@ -8,6 +8,7 @@ import { useState } from "react"
 import state from "../redux/state"
 import { setListings} from '../redux/state';
 import { useEffect } from "react"
+import { baseUrl } from "../Urls"
 const Listings = () => {
     const dispatch = useDispatch();
     const [loading,setLoading] = useState(true)
@@ -18,8 +19,8 @@ const Listings = () => {
     try {
       const response = await fetch(
         selectedCategory !== "All"
-          ? `http://localhost:3001/properties?category=${selectedCategory}`
-          : "http://localhost:3001/properties",
+          ? `${baseUrl}/properties?category=${selectedCategory}`
+          : `${baseUrl}/properties`,
         {
           method: "GET",
         }
