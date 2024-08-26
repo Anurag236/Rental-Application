@@ -4,6 +4,7 @@ const Booking = require("../models/Booking")
 const User = require("../models/User")
 const Listing = require("../models/Listing")
 
+
 /* GET TRIP LIST */
 router.get("/:userId/trips", async (req, res) => {
   try {
