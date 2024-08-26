@@ -16,7 +16,7 @@ router.get("/:userId/trips", async (req, res) => {
     res.status(404).json({ message: "Can not find trips!", error: err.message })
   }
 })
-
+//
 /* ADD LISTING TO WISHLIST */
 router.patch("/:userId/:listingId", async (req, res) => {
   try {
