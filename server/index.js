@@ -13,6 +13,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
+// Set up CORS to allow requests from your deployed frontend
+app.use(cors({
+  origin: "https://deploy-mern-lwhq.vercel.app", // Replace with your actual deployed Vercel frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true // Allows cookies to be sent with requests
+}));
+
+
 /* ROUTES */
 app.use("/auth", authRoutes)
 app.use("/properties", listingRoutes)
@@ -31,3 +39,6 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
   })
   .catch((err) => console.log(`${err} did not connect`));
+
+
+  
