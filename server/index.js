@@ -48,13 +48,9 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 const cors = require("cors");
 
-// Allowed origin (replace with your actual frontend URL)
-// const allowedOrigin = "https://home-rental-application-frontend.vercel.app";
-
-// CORS configuration
 
 app.use(cors({
-  origin: ["https://home-rental-application-frontend.vercel.app"],
+  origin: ["https://rental-application-frontend.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"], // Add other methods if needed
   credentials: true
 }));
