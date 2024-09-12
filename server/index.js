@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // Set up CORS to allow requests from your deployed frontend
 app.use(cors({
-  origin: "https://deploy-mern-lwhq.vercel.app", // Replace with your actual deployed Vercel frontend URL
+  origin: "https://", // Replace with your actual deployed Vercel frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true // Allows cookies to be sent with requests
 }));
