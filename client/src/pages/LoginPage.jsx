@@ -67,7 +67,7 @@ import { setLogin } from '../redux/state';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-const baseUrl = "https://home-rental-application-two.vercel.app/"; // Replace with actual deployed backend API
+const baseUrl = "https://home-rental-application-two.vercel.app"; // Replace with actual deployed backend API
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
