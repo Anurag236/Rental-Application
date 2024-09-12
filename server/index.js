@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // Set up CORS to allow requests from your deployed frontend
 app.use(cors({
-  origin: "https://home-rental-application-two.vercel.app/", // Replace with your actual deployed Vercel frontend URL
+  origin: "https://rental-application-frontend.vercel.app",
   methods: ["POST","GET"],
   credentials: true // Allows cookies to be sent with requests
 }));
