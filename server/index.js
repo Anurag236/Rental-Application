@@ -52,6 +52,7 @@ const cors = require("cors");
 // const allowedOrigin = "https://home-rental-application-frontend.vercel.app";
 
 // CORS configuration
+
 app.use(cors({
   origin: ["https://home-rental-application-frontend.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"], // Add other methods if needed
@@ -61,6 +62,8 @@ app.use(cors({
 // Middleware and routes setup
 app.use(express.json());
 app.use(express.static("public"));
+
+
 
 const authRoutes = require("./routes/auth.js");
 const listingRoutes = require("./routes/listing.js");
