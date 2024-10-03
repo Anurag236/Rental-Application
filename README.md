@@ -22,9 +22,3 @@ You can view the live demo of the application [here](https://booking-application
 - **Deployment**: Vercel
 
 
-To run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/booking-application.git
-   cd booking-application
