@@ -1,6 +1,6 @@
-# Booking Application
+# StayZone - Home Rental Application
 
-Welcome to the Booking Application repository! This project is a full-stack web application that allows users to search, book, and manage their bookings efficiently. The application features a user-friendly interface and provides essential functionalities for a seamless booking experience.
+Welcome to the StayZone - A Home Rental Application repository! This project is a full-stack web application that allows users to search, book, and manage their bookings efficiently. The application features a user-friendly interface and provides essential functionalities for a seamless booking experience.
 
 ## Live Demo
 
