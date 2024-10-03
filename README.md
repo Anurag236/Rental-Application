@@ -21,7 +21,6 @@ You can view the live demo of the application [here](https://booking-application
 - **Styling**: SCSS
 - **Deployment**: Vercel
 
-## Installation
 
 To run this project locally, follow these steps:
 
